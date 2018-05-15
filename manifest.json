@@ -1,0 +1,13 @@
+{
+  "Name": "Clawfoot Mod",
+  "Author": "Speedy",
+  "Version": "1.1.2",
+  "Description": "Changes the default Stardew farmer into a lizardman, modeled after GyroGun's Clawfoot character.",
+  "UniqueID": "Speedy.ClawfootMod",
+  "MinimumApiVersion": "2.6-beta.13",
+  "UpdateKeys": [ "GitHub:SpeedyD/ClawfootMod" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", // the ID of required mod
+      "MinimumVersion": "1.4.0-beta.3" // optional
+   }
+}

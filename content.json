@@ -1,0 +1,110 @@
+{
+  "Format": "1.3",
+  "ConfigSchema": {
+       "Add Shirt": {
+            "AllowValues": "true, false"
+        },
+       "Add Skincolor": {
+            "AllowValues": "true, false"
+        },
+       "Add Facemask": {
+            "AllowValues": "true, false"
+        },
+       "Add Hairstyles": {
+            "AllowValues": "true, false"
+        },
+       "Fundoshi for Men?": {
+            "AllowValues": "false, true"
+        }
+    },
+  "Changes": [
+       {
+          "LogName": "ArmcolorFix",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/farmer_base",
+          "FromFile": "assets/ArmFix.png",
+          "ToArea": { "X": 96, "Y": 32, "Width": 16, "Height": 32 }
+       },
+       {
+          "LogName": "LizardColor",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/skinColors",
+          "FromFile": "assets/LizardColors.png",
+          "ToArea": { "X": 0, "Y": 17, "Width": 3, "Height": 1 },
+          "When": {
+                "Add Skincolor": "true"
+          }
+       },
+
+       {
+          "LogName": "Mohawks",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/hairstyles",
+          "FromFile": "assets/Mohawk.png",
+          "ToArea": { "X": 80, "Y": 0, "Width": 32, "Height": 96 },
+          "When": {
+                "Add Facemask": "true"
+          }
+       },
+       {
+          "LogName": "Pants (M)",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/farmer_base",
+          "FromFile": "assets/MalePants.png",
+          "ToArea": { "X": 288, "Y": 0, "Width": 96, "Height": 672 }
+       },
+       {
+          "LogName": "Pants (F)",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/farmer_girl_base",
+          "FromFile": "assets/FemalePants.png",
+          "ToArea": { "X": 288, "Y": 0, "Width": 96, "Height": 672 }
+       },
+       {
+          "LogName": "Body (M)",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/farmer_base",
+          "FromFile": "assets/MaleBody.png",
+          "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 }
+       },
+       {
+          "LogName": "Body (M)",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/farmer_girl_base",
+          "FromFile": "assets/FemaleBody.png",
+          "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 }
+       },
+       {
+          "LogName": "FaceMask",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/accessories",
+          "FromFile": "assets/FaceMask.png",
+          "ToArea": { "X": 32, "Y": 64, "Width": 16, "Height": 32 },
+          "When": {
+                "Add Facemask": "true"
+          }
+       },
+       {
+          "LogName": "LizardShirt",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/shirts",
+          "FromFile": "assets/LizardShirts.png",
+          "ToArea": { "X": 56, "Y": 32, "Width": 8, "Height": 32 },
+          "When": {
+                "Add Shirt": "true"
+          }
+       },
+       {
+          "LogName": "Fundoshi",
+          "Action": "EditImage",
+          "Target": "Characters/Farmer/farmer_base",
+          "FromFile": "assets/Fundoshi.png",
+          "FromArea": { "X": 0, "Y": 0, "Width":48, "Height": 88 },
+          "ToArea": { "X": 288, "Y": 584, "Width":48, "Height": 88 },
+          "When": {
+                "Fundoshi for Men?": "true"
+          }
+       }
+
+    ]
+}
