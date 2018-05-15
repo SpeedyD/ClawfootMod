@@ -1,6 +1,11 @@
 # ClawfootMod
 A Stardew Valley mod in which you can change the farmers into lizardfolk, based off of RetroPixelLizard's Clawfoot character.
 
+## Minium mod requirements:
+* [Stardew Valley 1.3](https://stardewvalley.net/)
+* [SMAPI 2.6-beta13](https://smapi.io/)
+* [Content Patcher 1.4-beta.3](https://www.nexusmods.com/stardewvalley/mods/1915)
+
 ## What the mod changes:
 The male farmers get horns and clawed feet, going barefoot.
 The female farmers are simply barefoot at the time.
