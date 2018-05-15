@@ -52,5 +52,8 @@ Replaces two kinda meh hairstyles with the mohawks.
 ### Fundoshi for Men?
 (_Default: false_)
 Will replace the men's bath towel with a fundoshi.
-This was a request by Gyro, specifically.
+This was a request by RPL, specifically.
 
+## Credits:
+* Retro Pixel Lizard, aka RPL or Gyro Gun. He requested this mod, as well as later modifications.. Considering the default is based off of his character Clawfoot, I can hardly not credit him.
+* PathosChild for helping out and for releasing Content Patcher, could not have finished this without him.
