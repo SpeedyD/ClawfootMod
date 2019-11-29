@@ -14,6 +14,10 @@ Though the minimum mod requirements do not change, let it be known that it still
 
 It is assumed that as long as Content Patcher stays up to date with both the game and SMAPI, this mod should continue to work just fine.
 
+As of _**Stardew Valley 1.4**_ a bunch of the farmer sprites have been changed. For this reason, the mod will throw errors regarding the positions of some of the edited sprites. Mostly, the pants.
+
+I will look into this in the nearby future, though the game does not crash from this. It should simply no longer replace the pants.
+
 ## What the mod changes:
 The male farmers get horns and clawed feet, going barefoot.
 The female farmers are simply barefoot at the time.
